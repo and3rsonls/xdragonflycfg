@@ -7,3 +7,28 @@
 # pkg upgrade pkp
   --->
   
+# pkg update
+# pkg upgrade
+  --->
+  
+# pkg install -y vim sudo doas
+  --->
+
+# cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf
+  --->configurar
+
+% doas pkg install xorg xfce slim
+    --->
+% doas vim /etc/rc.conf
+
+#desktop
+hald_enable="YES"
+moused_enable="YES"
+dbus_enables="YES"
+slim_enable="YES"
+
+.xintrc
+  export LC_ALL=pt_BR.UTF-8
+  export LANGUAGE=pt_BR.UFT-8
+  export LANG=pt_BR.UTF-8
+  . /usr/local/etc/xdg/xfce4/xinitrc
