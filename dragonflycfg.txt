@@ -14,8 +14,9 @@
 # pkg install -y vim sudo doas
   --->
 
-# cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf
-  --->configurar
+# cp /usr/local/etc/doas.conf.sample 
+# ee /usr/local/etc/doas.conf
+  --->copiar e configurar
 
 % doas pkg install xorg xfce slim
     --->
