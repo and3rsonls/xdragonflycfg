@@ -1,0 +1,9 @@
+# cp -v /usr/local/etc/pkg/repos/df-latest.conf.sample /usr/local/etc/pkg/repos/df-latest.conf
+  --->repository
+
+# /etc/rc.conf
+  --->keymap=br275.iso.acc
+
+# pkg upgrade pkp
+  --->
+  
